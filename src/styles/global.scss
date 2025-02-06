@@ -1,0 +1,26 @@
+@use "./variables" as *;
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: $background-color; /* 深い群青色 */
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $secondary-color;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1em;
+}
